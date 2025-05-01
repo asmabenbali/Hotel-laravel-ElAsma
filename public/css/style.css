@@ -1,0 +1,81 @@
+/* Style général */
+body.auth-body {
+    background: linear-gradient(to right, #f8bbd0, #f48fb1);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur du formulaire */
+.auth-container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Titres */
+.auth-container h2 {
+    color: #e91e63;
+    margin-bottom: 30px;
+}
+
+/* Champs */
+.auth-container input,
+.auth-container select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #e91e63;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.auth-container input:focus,
+.auth-container select:focus {
+    border-color: #ad1457;
+}
+
+/* Bouton */
+.auth-container button {
+    width: 100%;
+    padding: 12px;
+    background: #e91e63;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.auth-container button:hover {
+    background: #ad1457;
+}
+
+/* Liens */
+.auth-link {
+    margin-top: 20px;
+    color: #333;
+}
+
+.auth-link a {
+    color: #e91e63;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px 0;
+    font-size: 0.95rem;
+    color: #555;
+}
